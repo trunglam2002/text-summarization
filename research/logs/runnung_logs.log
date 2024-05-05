@@ -1,0 +1,4 @@
+[2024-05-05 12:45:50,242: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-05 12:45:50,267: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-05 12:45:50,270: INFO: common: Created directory: artifacts]
+[2024-05-05 12:45:50,272: INFO: common: Created directory: artifacts/data_validation]
