@@ -1,7 +1,5 @@
-
 import os
 from text_summarizer.entity import DataValidationConfig
-from text_summarizer.logging import logger
 
 
 class DataValiadtion:

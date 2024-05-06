@@ -109,3 +109,913 @@ x==========x]
 [2024-05-06 03:45:11,237: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-05-06 03:58:56,720: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:00:21,313: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:00:21,337: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:00:21,337: INFO: common: Created directory: artifacts]
+[2024-05-06 04:00:21,337: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:04:23,505: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:04:23,510: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:04:23,515: INFO: common: Created directory: artifacts]
+[2024-05-06 04:04:23,515: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:06:17,060: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:06:17,060: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:06:17,065: INFO: common: Created directory: artifacts]
+[2024-05-06 04:06:17,065: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:08:13,040: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:08:13,471: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:08:13,479: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:08:13,480: INFO: common: Created directory: artifacts]
+[2024-05-06 04:08:13,480: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:13:44,891: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:13:45,241: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:13:45,241: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:13:45,251: INFO: common: Created directory: artifacts]
+[2024-05-06 04:13:45,252: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:17:29,275: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:17:29,279: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:17:29,281: INFO: common: Created directory: artifacts]
+[2024-05-06 04:17:29,284: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:17:48,372: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:17:48,758: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:17:48,761: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:17:48,763: INFO: common: Created directory: artifacts]
+[2024-05-06 04:17:48,765: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:30:24,843: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:30:25,241: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 04:30:25,245: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:30:25,245: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:30:25,246: INFO: common: Created directory: artifacts]
+[2024-05-06 04:30:25,246: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 04:30:25,247: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 04:30:25,451: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 04:30:25,451: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 04:30:25,454: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:30:25,455: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:30:25,455: INFO: common: Created directory: artifacts]
+[2024-05-06 04:30:25,456: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 04:30:25,459: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 04:30:25,459: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 04:30:25,462: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:30:25,462: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:30:25,463: INFO: common: Created directory: artifacts]
+[2024-05-06 04:30:25,464: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 04:30:34,281: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 04:36:32,529: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:47:54,610: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:47:54,613: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:47:54,615: INFO: common: Created directory: artifacts]
+[2024-05-06 04:49:18,485: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:49:18,488: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:49:18,490: INFO: common: Created directory: artifacts]
+[2024-05-06 04:51:30,907: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:51:30,910: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:51:30,913: INFO: common: Created directory: artifacts]
+[2024-05-06 04:52:44,536: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:52:44,959: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:52:44,962: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:52:44,964: INFO: common: Created directory: artifacts]
+[2024-05-06 04:58:15,331: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:58:15,335: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:58:15,338: INFO: common: Created directory: artifacts]
+[2024-05-06 04:58:55,776: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 04:58:56,235: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 04:58:56,239: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 04:58:56,241: INFO: common: Created directory: artifacts]
+[2024-05-06 05:03:33,585: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:03:33,588: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:03:33,590: INFO: common: Created directory: artifacts]
+[2024-05-06 05:08:23,914: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:08:23,935: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:08:23,937: INFO: common: Created directory: artifacts]
+[2024-05-06 05:08:23,940: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:09:26,779: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:09:26,784: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:09:26,786: INFO: common: Created directory: artifacts]
+[2024-05-06 05:09:26,789: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:13:13,719: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:13:13,724: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:13:13,726: INFO: common: Created directory: artifacts]
+[2024-05-06 05:13:13,728: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:15:35,808: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:15:35,815: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:15:35,817: INFO: common: Created directory: artifacts]
+[2024-05-06 05:15:35,819: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:17:36,580: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:17:36,585: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:17:36,586: INFO: common: Created directory: artifacts]
+[2024-05-06 05:17:36,588: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:22:53,305: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 05:22:54,088: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:22:54,108: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:22:54,111: INFO: common: Created directory: artifacts]
+[2024-05-06 05:22:54,112: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:55:01,791: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 05:55:02,688: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 05:55:02,705: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:55:02,713: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:55:02,715: INFO: common: Created directory: artifacts]
+[2024-05-06 05:55:02,717: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 05:55:02,718: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 05:55:02,975: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:55:02,976: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 05:55:02,981: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:55:02,983: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:55:02,984: INFO: common: Created directory: artifacts]
+[2024-05-06 05:55:02,985: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 05:55:02,991: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:55:02,995: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 05:55:03,004: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:55:03,010: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:55:03,011: INFO: common: Created directory: artifacts]
+[2024-05-06 05:55:03,012: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 05:55:06,315: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/NgLaam/Desktop/chatbot/text-summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 34, in <module>
+    data_transformation.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 15, in main
+    data_transformation.convert()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\dataset_dict.py", line 1298, in save_to_disk
+    dataset.save_to_disk(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_dataset.py", line 1587, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_dataset.py", line 1611, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_writer.py", line 338, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 197, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 322, in __init__
+    self._open()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 327, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/NgLaam/Desktop/chatbot/text-summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-05-06 05:57:17,222: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 05:57:17,853: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 05:57:17,863: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:17,883: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:17,887: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:17,887: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 05:57:17,888: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 05:57:18,056: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:57:18,057: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 05:57:18,061: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:18,062: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:18,063: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:18,063: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 05:57:18,067: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:57:18,069: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 05:57:18,075: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:18,080: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:18,081: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:18,083: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 05:57:21,105: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:57:21,105: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 05:57:21,109: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:21,111: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:21,112: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:21,113: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 05:57:21,114: ERROR: main: __init__() got an unexpected keyword argument 'config']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer = ModelTrainerConfig(
+TypeError: __init__() got an unexpected keyword argument 'config'
+[2024-05-06 05:57:59,461: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 05:57:59,783: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 05:57:59,788: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:59,790: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:59,791: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:59,791: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 05:57:59,791: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 05:57:59,948: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:57:59,948: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 05:57:59,952: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:59,953: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:59,954: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:59,954: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 05:57:59,957: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:57:59,958: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 05:57:59,963: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:57:59,969: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:57:59,971: INFO: common: Created directory: artifacts]
+[2024-05-06 05:57:59,972: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 05:58:02,311: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 05:58:02,312: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 05:58:02,317: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 05:58:02,319: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 05:58:02,320: INFO: common: Created directory: artifacts]
+[2024-05-06 05:58:02,321: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 05:58:02,322: ERROR: main: __init__() got an unexpected keyword argument 'config']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 13, in main
+    model_trainer = ModelTrainerConfig(
+TypeError: __init__() got an unexpected keyword argument 'config'
+[2024-05-06 06:00:50,842: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:00:54,992: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 06:00:54,996: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:00:54,998: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:00:54,999: INFO: common: Created directory: artifacts]
+[2024-05-06 06:00:55,000: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 06:00:55,000: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 06:00:55,160: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:00:55,160: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 06:00:55,165: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:00:55,167: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:00:55,168: INFO: common: Created directory: artifacts]
+[2024-05-06 06:00:55,169: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 06:00:55,173: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:00:55,174: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 06:00:55,180: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:00:55,182: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:00:55,183: INFO: common: Created directory: artifacts]
+[2024-05-06 06:00:55,184: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 06:00:56,988: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:00:56,988: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 06:00:56,998: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:00:57,001: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:00:57,002: INFO: common: Created directory: artifacts]
+[2024-05-06 06:00:57,003: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 06:00:57,004: ERROR: main: 'ModelTrainer' object has no attribute 'convert']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.convert()
+AttributeError: 'ModelTrainer' object has no attribute 'convert'
+[2024-05-06 06:01:36,205: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:01:38,918: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 06:01:38,921: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:01:38,923: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:01:38,925: INFO: common: Created directory: artifacts]
+[2024-05-06 06:01:38,926: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 06:01:38,926: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 06:01:39,089: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:01:39,090: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 06:01:39,094: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:01:39,096: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:01:39,097: INFO: common: Created directory: artifacts]
+[2024-05-06 06:01:39,098: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 06:01:39,103: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:01:39,104: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 06:01:39,109: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:01:39,111: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:01:39,112: INFO: common: Created directory: artifacts]
+[2024-05-06 06:01:39,114: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 06:01:41,207: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:01:41,208: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 06:01:41,213: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:01:41,217: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:01:41,217: INFO: common: Created directory: artifacts]
+[2024-05-06 06:01:41,218: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 06:02:41,676: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 26, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 125, in __init__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\training_args.py", line 1488, in __post_init__
+    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2024-05-06 06:07:44,361: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:07:49,219: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 06:07:49,224: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:07:49,231: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:07:49,232: INFO: common: Created directory: artifacts]
+[2024-05-06 06:07:49,233: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 06:07:49,233: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 06:07:49,401: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:07:49,402: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 06:07:49,405: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:07:49,407: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:07:49,408: INFO: common: Created directory: artifacts]
+[2024-05-06 06:07:49,409: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 06:07:49,413: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:07:49,415: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 06:07:49,419: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:07:49,421: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:07:49,422: INFO: common: Created directory: artifacts]
+[2024-05-06 06:07:49,423: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 06:07:51,248: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:07:51,249: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 06:07:51,253: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:07:51,257: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:07:51,259: INFO: common: Created directory: artifacts]
+[2024-05-06 06:07:51,259: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 06:08:47,459: ERROR: main: 'TrainingArguments' object has no attribute 'config']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 26, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 125, in __init__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\training_args.py", line 1420, in __post_init__
+    print(self.config.eval_steps)
+AttributeError: 'TrainingArguments' object has no attribute 'config'
+[2024-05-06 06:10:00,072: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:10:04,149: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 06:10:04,153: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:10:04,158: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:10:04,159: INFO: common: Created directory: artifacts]
+[2024-05-06 06:10:04,160: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 06:10:04,160: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 06:10:04,328: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:10:04,328: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 06:10:04,333: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:10:04,335: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:10:04,336: INFO: common: Created directory: artifacts]
+[2024-05-06 06:10:04,337: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 06:10:04,340: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:10:04,341: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 06:10:04,345: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:10:04,349: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:10:04,350: INFO: common: Created directory: artifacts]
+[2024-05-06 06:10:04,350: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 06:10:06,637: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:10:06,637: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 06:10:06,637: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:10:06,637: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:10:06,645: INFO: common: Created directory: artifacts]
+[2024-05-06 06:10:06,645: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 06:11:00,517: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 26, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 125, in __init__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\training_args.py", line 1489, in __post_init__
+    if self.evaluation_strategy == IntervalStrategy.STEPS and self.eval_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2024-05-06 06:13:10,631: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:13:14,291: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 06:13:14,295: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:13:14,300: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:13:14,302: INFO: common: Created directory: artifacts]
+[2024-05-06 06:13:14,302: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 06:13:14,305: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 06:13:14,472: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:13:14,473: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 06:13:14,477: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:13:14,479: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:13:14,480: INFO: common: Created directory: artifacts]
+[2024-05-06 06:13:14,481: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 06:13:14,484: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:13:14,486: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 06:13:14,496: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:13:14,500: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:13:14,501: INFO: common: Created directory: artifacts]
+[2024-05-06 06:13:14,502: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 06:13:16,580: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 06:13:16,580: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 06:13:16,586: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:13:16,589: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:13:16,589: INFO: common: Created directory: artifacts]
+[2024-05-06 06:13:16,590: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 06:17:53,068: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 06:19:14,838: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:19:14,846: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:19:14,848: INFO: common: Created directory: artifacts]
+[2024-05-06 06:19:14,850: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 06:22:21,029: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 06:22:21,034: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 06:22:21,036: INFO: common: Created directory: artifacts]
+[2024-05-06 06:22:21,039: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:21:48,663: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 07:21:49,279: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:21:49,289: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:21:49,292: INFO: common: Created directory: artifacts]
+[2024-05-06 07:21:49,295: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:22:50,242: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 07:22:50,635: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:22:50,640: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:22:50,643: INFO: common: Created directory: artifacts]
+[2024-05-06 07:22:50,647: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:28:16,953: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:28:16,960: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:28:16,961: INFO: common: Created directory: artifacts]
+[2024-05-06 07:28:16,964: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:29:22,256: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:29:22,263: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:29:22,265: INFO: common: Created directory: artifacts]
+[2024-05-06 07:29:22,266: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:29:41,932: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:29:41,938: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:29:41,942: INFO: common: Created directory: artifacts]
+[2024-05-06 07:29:41,944: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:30:58,013: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:30:58,018: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:30:58,020: INFO: common: Created directory: artifacts]
+[2024-05-06 07:30:58,022: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:33:42,651: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:33:42,655: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:33:42,656: INFO: common: Created directory: artifacts]
+[2024-05-06 07:33:42,658: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:34:06,217: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 07:34:06,826: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:34:06,831: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:34:06,834: INFO: common: Created directory: artifacts]
+[2024-05-06 07:34:06,840: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:39:17,940: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:39:17,947: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:39:17,948: INFO: common: Created directory: artifacts]
+[2024-05-06 07:39:17,950: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:39:21,418: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:39:21,422: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:39:21,423: INFO: common: Created directory: artifacts]
+[2024-05-06 07:39:21,424: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:39:35,160: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:39:35,167: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:39:35,169: INFO: common: Created directory: artifacts]
+[2024-05-06 07:39:35,172: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:40:00,474: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:40:00,479: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:40:00,482: INFO: common: Created directory: artifacts]
+[2024-05-06 07:40:00,484: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:40:58,913: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:40:58,920: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:40:58,922: INFO: common: Created directory: artifacts]
+[2024-05-06 07:40:58,925: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:47:07,668: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 07:47:07,674: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 07:47:08,234: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:47:08,245: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:47:08,248: INFO: common: Created directory: artifacts]
+[2024-05-06 07:47:08,250: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:54:37,412: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:54:37,438: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:54:37,446: INFO: common: Created directory: artifacts]
+[2024-05-06 07:54:37,452: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 07:55:25,489: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 07:55:25,495: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 07:55:25,498: INFO: common: Created directory: artifacts]
+[2024-05-06 07:55:25,500: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 08:11:24,666: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:11:24,670: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 08:15:09,610: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:15:09,614: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 08:17:21,953: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:17:21,957: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 08:18:11,350: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:18:15,670: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:18:15,684: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:15,691: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:15,692: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:15,693: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:18:15,694: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:18:15,871: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:18:15,872: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:18:15,875: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:15,877: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:15,878: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:15,879: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:18:15,882: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:18:15,883: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:18:15,887: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:15,889: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:15,890: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:15,892: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:18:18,592: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/NgLaam/Desktop/chatbot/text-summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow']
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 34, in <module>
+    data_transformation.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 15, in main
+    data_transformation.convert()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\data_transformation.py", line 30, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\dataset_dict.py", line 1298, in save_to_disk
+    dataset.save_to_disk(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_dataset.py", line 1587, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_dataset.py", line 1611, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\datasets\arrow_writer.py", line 338, in __init__
+    self.stream = self._fs.open(path, "wb")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 197, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 322, in __init__
+    self._open()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\fsspec\implementations\local.py", line 327, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/NgLaam/Desktop/chatbot/text-summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-05-06 08:18:50,615: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:18:53,099: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:18:53,102: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:53,102: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:53,102: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:53,102: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:18:53,102: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:18:53,270: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:18:53,270: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:18:53,274: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:53,276: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:53,276: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:53,278: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:18:53,281: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:18:53,282: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:18:53,287: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:53,294: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:53,295: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:53,297: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:18:55,676: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:18:55,676: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 08:18:55,684: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:18:55,687: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:18:55,687: INFO: common: Created directory: artifacts]
+[2024-05-06 08:18:55,688: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 08:20:51,289: ERROR: main: unhashable type: 'list']
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 42, in tf
+    from tensorboard.compat import notf  # noqa: F401
+ImportError: cannot import name 'notf' from 'tensorboard.compat' (C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 42, in train
+    trainer = Trainer(model=model_pegasus, args=trainer_args,
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer.py", line 558, in __init__
+    self.callback_handler = CallbackHandler(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 314, in __init__
+    self.add_callback(cb)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 331, in add_callback
+    cb = callback() if isinstance(callback, type) else callback
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\integrations\integration_utils.py", line 598, in __init__
+    from torch.utils.tensorboard import SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\__init__.py", line 12, in <module>
+    from .writer import FileWriter, SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\writer.py", line 18, in <module>
+    from ._embedding import get_embedding_info, make_mat, make_sprite, make_tsv, write_pbtxt
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\_embedding.py", line 9, in <module>
+    _HAS_GFILE_JOIN = hasattr(tf.io.gfile, "join")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 65, in __getattr__
+    return getattr(load_once(self), attr_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 97, in wrapper
+    cache[arg] = f(arg)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 50, in load_once
+    module = load_fn()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 45, in tf
+    import tensorflow
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\__init__.py", line 45, in <module>
+    from tensorflow._api.v2 import __internal__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\__init__.py", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\framework\ops.py", line 5906, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 433, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
+[2024-05-06 08:24:01,660: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:24:01,664: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 08:24:43,166: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:24:46,870: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:24:46,877: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:24:46,883: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:24:46,885: INFO: common: Created directory: artifacts]
+[2024-05-06 08:24:46,886: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:24:46,887: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:24:47,212: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:24:47,272: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:24:47,334: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:24:47,382: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:24:47,421: INFO: common: Created directory: artifacts]
+[2024-05-06 08:24:47,432: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:24:47,481: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:24:47,481: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:24:47,492: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:24:47,496: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:24:47,497: INFO: common: Created directory: artifacts]
+[2024-05-06 08:24:47,498: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:24:50,145: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:24:50,145: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 08:24:50,153: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:24:50,157: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:24:50,158: INFO: common: Created directory: artifacts]
+[2024-05-06 08:24:50,159: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 08:25:41,141: ERROR: main: unhashable type: 'list']
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 42, in tf
+    from tensorboard.compat import notf  # noqa: F401
+ImportError: cannot import name 'notf' from 'tensorboard.compat' (C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 42, in train
+    trainer = Trainer(model=model_pegasus, args=trainer_args,
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer.py", line 558, in __init__
+    self.callback_handler = CallbackHandler(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 314, in __init__
+    self.add_callback(cb)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 331, in add_callback
+    cb = callback() if isinstance(callback, type) else callback
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\integrations\integration_utils.py", line 598, in __init__
+    from torch.utils.tensorboard import SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\__init__.py", line 12, in <module>
+    from .writer import FileWriter, SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\writer.py", line 18, in <module>
+    from ._embedding import get_embedding_info, make_mat, make_sprite, make_tsv, write_pbtxt
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\_embedding.py", line 9, in <module>
+    _HAS_GFILE_JOIN = hasattr(tf.io.gfile, "join")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 65, in __getattr__
+    return getattr(load_once(self), attr_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 97, in wrapper
+    cache[arg] = f(arg)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 50, in load_once
+    module = load_fn()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 45, in tf
+    import tensorflow
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\__init__.py", line 45, in <module>
+    from tensorflow._api.v2 import __internal__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\__init__.py", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\framework\ops.py", line 5906, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 433, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
+[2024-05-06 08:27:25,451: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:27:25,455: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-06 08:29:38,862: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:29:43,019: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:29:43,026: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:29:43,033: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:29:43,035: INFO: common: Created directory: artifacts]
+[2024-05-06 08:29:43,035: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:29:43,036: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:29:43,232: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:29:43,233: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:29:43,240: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:29:43,244: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:29:43,245: INFO: common: Created directory: artifacts]
+[2024-05-06 08:29:43,245: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:29:43,249: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:29:43,252: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:29:43,263: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:29:43,267: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:29:43,268: INFO: common: Created directory: artifacts]
+[2024-05-06 08:29:43,269: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:29:45,327: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:29:45,328: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 08:29:45,337: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:29:45,340: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:29:45,341: INFO: common: Created directory: artifacts]
+[2024-05-06 08:29:45,344: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 08:30:37,309: ERROR: main: unhashable type: 'list']
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 42, in tf
+    from tensorboard.compat import notf  # noqa: F401
+ImportError: cannot import name 'notf' from 'tensorboard.compat' (C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 45, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 42, in train
+    trainer = Trainer(model=model_pegasus, args=trainer_args,
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer.py", line 558, in __init__
+    self.callback_handler = CallbackHandler(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 314, in __init__
+    self.add_callback(cb)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 331, in add_callback
+    cb = callback() if isinstance(callback, type) else callback
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\integrations\integration_utils.py", line 598, in __init__
+    from torch.utils.tensorboard import SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\__init__.py", line 12, in <module>
+    from .writer import FileWriter, SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\writer.py", line 18, in <module>
+    from ._embedding import get_embedding_info, make_mat, make_sprite, make_tsv, write_pbtxt
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\_embedding.py", line 9, in <module>
+    _HAS_GFILE_JOIN = hasattr(tf.io.gfile, "join")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 65, in __getattr__
+    return getattr(load_once(self), attr_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 97, in wrapper
+    cache[arg] = f(arg)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 50, in load_once
+    module = load_fn()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 45, in tf
+    import tensorflow
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\__init__.py", line 45, in <module>
+    from tensorflow._api.v2 import __internal__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\__init__.py", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\framework\ops.py", line 5906, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 433, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
+[2024-05-06 08:37:31,969: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:37:35,494: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:37:35,498: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:37:35,504: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:37:35,506: INFO: common: Created directory: artifacts]
+[2024-05-06 08:37:35,506: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:37:35,507: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:37:35,682: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:37:35,683: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:37:35,687: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:37:35,689: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:37:35,690: INFO: common: Created directory: artifacts]
+[2024-05-06 08:37:35,691: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:37:35,696: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:37:35,697: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:37:35,704: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:37:35,706: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:37:35,707: INFO: common: Created directory: artifacts]
+[2024-05-06 08:37:35,708: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:37:37,669: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:37:37,669: INFO: main: *******************]
+[2024-05-06 08:37:37,670: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-05-06 08:37:37,673: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:37:37,676: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:37:37,677: INFO: common: Created directory: artifacts]
+[2024-05-06 08:37:37,678: INFO: common: Created directory: artifacts/model_evaluation]
