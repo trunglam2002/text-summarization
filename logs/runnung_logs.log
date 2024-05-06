@@ -1019,3 +1019,123 @@ x==========x]
 [2024-05-06 08:37:37,676: INFO: common: yaml file: params.yaml load successfully]
 [2024-05-06 08:37:37,677: INFO: common: Created directory: artifacts]
 [2024-05-06 08:37:37,678: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 08:48:34,821: INFO: server: Started server process [1932]]
+[2024-05-06 08:48:34,823: INFO: on: Waiting for application startup.]
+[2024-05-06 08:48:34,824: INFO: on: Application startup complete.]
+[2024-05-06 08:48:34,825: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-06 08:50:44,237: INFO: server: Shutting down]
+[2024-05-06 08:50:44,367: INFO: on: Waiting for application shutdown.]
+[2024-05-06 08:50:44,367: INFO: on: Application shutdown complete.]
+[2024-05-06 08:50:44,367: INFO: server: Finished server process [1932]]
+[2024-05-06 08:51:16,113: INFO: server: Started server process [4976]]
+[2024-05-06 08:51:16,113: INFO: on: Waiting for application startup.]
+[2024-05-06 08:51:16,113: INFO: on: Application startup complete.]
+[2024-05-06 08:51:16,113: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-06 08:51:57,101: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 08:51:59,985: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 08:52:00,002: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:52:00,022: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:52:00,024: INFO: common: Created directory: artifacts]
+[2024-05-06 08:52:00,025: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 08:52:00,026: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 08:52:00,202: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:52:00,202: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 08:52:00,202: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:52:00,220: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:52:00,221: INFO: common: Created directory: artifacts]
+[2024-05-06 08:52:00,222: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 08:52:00,225: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:52:00,226: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 08:52:00,234: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:52:00,241: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:52:00,242: INFO: common: Created directory: artifacts]
+[2024-05-06 08:52:00,242: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 08:52:02,262: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 08:52:02,262: INFO: main: *******************]
+[2024-05-06 08:52:02,263: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 08:52:02,268: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:52:02,272: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:52:02,273: INFO: common: Created directory: artifacts]
+[2024-05-06 08:52:02,274: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 08:53:08,450: ERROR: main: unhashable type: 'list']
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 42, in tf
+    from tensorboard.compat import notf  # noqa: F401
+ImportError: cannot import name 'notf' from 'tensorboard.compat' (C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 47, in <module>
+    model_trainer.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer.train()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\model_trainer.py", line 41, in train
+    trainer = Trainer(model=model_pegasus, args=trainer_args,
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer.py", line 558, in __init__
+    self.callback_handler = CallbackHandler(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 314, in __init__
+    self.add_callback(cb)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\trainer_callback.py", line 331, in add_callback
+    cb = callback() if isinstance(callback, type) else callback
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\transformers\integrations\integration_utils.py", line 598, in __init__
+    from torch.utils.tensorboard import SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\__init__.py", line 12, in <module>
+    from .writer import FileWriter, SummaryWriter  # noqa: F401
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\writer.py", line 18, in <module>
+    from ._embedding import get_embedding_info, make_mat, make_sprite, make_tsv, write_pbtxt
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\torch\utils\tensorboard\_embedding.py", line 9, in <module>
+    _HAS_GFILE_JOIN = hasattr(tf.io.gfile, "join")
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 65, in __getattr__
+    return getattr(load_once(self), attr_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 97, in wrapper
+    cache[arg] = f(arg)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\lazy.py", line 50, in load_once
+    module = load_fn()
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorboard\compat\__init__.py", line 45, in tf
+    import tensorflow
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\__init__.py", line 45, in <module>
+    from tensorflow._api.v2 import __internal__
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\__init__.py", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\text_summarizer\lib\site-packages\tensorflow\python\framework\ops.py", line 5906, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 433, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "C:\Users\NgLaam\AppData\Local\Programs\Python\Python39\lib\typing.py", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
+[2024-05-06 08:57:54,813: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:57:54,833: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:57:54,836: INFO: common: Created directory: artifacts]
+[2024-05-06 08:57:54,836: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 08:59:31,974: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 08:59:32,011: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 08:59:32,028: INFO: common: Created directory: artifacts]
+[2024-05-06 08:59:32,029: INFO: common: Created directory: artifacts/model_evaluation]
