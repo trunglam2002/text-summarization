@@ -1139,3 +1139,381 @@ TypeError: unhashable type: 'list'
 [2024-05-06 08:59:32,011: INFO: common: yaml file: params.yaml load successfully]
 [2024-05-06 08:59:32,028: INFO: common: Created directory: artifacts]
 [2024-05-06 08:59:32,029: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-06 09:19:08,801: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 09:19:10,767: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 09:19:10,770: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:19:10,788: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:19:10,789: INFO: common: Created directory: artifacts]
+[2024-05-06 09:19:10,790: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 09:19:13,923: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B616:1054F6:22BF49:2C81A5:66383E1C
+Accept-Ranges: bytes
+Date: Mon, 06 May 2024 02:19:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1236-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714961952.725988,VS0,VE891
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 96a6df8a82f0de13abae2c2cee25dc466d91e430
+Expires: Mon, 06 May 2024 02:24:12 GMT
+Source-Age: 1
+
+]
+[2024-05-06 09:19:14,168: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:19:14,168: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 09:19:14,168: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:19:14,168: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:19:14,168: INFO: common: Created directory: artifacts]
+[2024-05-06 09:19:14,180: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 09:19:14,184: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:19:14,186: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 09:19:14,195: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:19:14,197: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:19:14,198: INFO: common: Created directory: artifacts]
+[2024-05-06 09:19:14,200: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 09:19:19,881: ERROR: main: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.]
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 35, in <module>
+    data_transformation.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\data_transformation.py", line 10, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 880, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 137, in __init__
+    super().__init__(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_fast.py", line 120, in __init__
+    raise ValueError(
+ValueError: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+[2024-05-06 09:19:59,076: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 09:20:00,264: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 09:20:00,264: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:00,264: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:00,264: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:00,277: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 09:20:00,278: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 09:20:00,428: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:20:00,444: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 09:20:00,444: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:00,444: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:00,444: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:00,451: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 09:20:00,456: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:20:00,457: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 09:20:00,467: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:00,470: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:00,471: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:00,471: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 09:20:00,825: ERROR: main: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.]
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 35, in <module>
+    data_transformation.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\data_transformation.py", line 10, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 880, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 137, in __init__
+    super().__init__(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_fast.py", line 120, in __init__
+    raise ValueError(
+ValueError: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+[2024-05-06 09:20:47,391: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 09:20:49,944: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 09:20:49,944: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:49,955: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:49,955: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:49,957: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 09:20:49,958: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 09:20:50,120: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:20:50,120: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 09:20:50,120: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:50,120: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:50,137: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:50,137: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 09:20:50,140: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:20:50,142: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 09:20:50,149: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:20:50,150: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:20:50,152: INFO: common: Created directory: artifacts]
+[2024-05-06 09:20:50,153: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 09:20:50,564: ERROR: main: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.]
+Traceback (most recent call last):
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\main.py", line 35, in <module>
+    data_transformation.main()
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 17, in main
+    raise e
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\stage_03_data_transformation.py", line 13, in main
+    data_transformation = DataTransformation(
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\components\data_transformation.py", line 10, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(config.tokenizer_name)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 880, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\models\pegasus\tokenization_pegasus_fast.py", line 137, in __init__
+    super().__init__(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\tokenization_utils_fast.py", line 120, in __init__
+    raise ValueError(
+ValueError: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+[2024-05-06 09:22:00,871: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-06 09:22:06,097: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-06 09:22:06,103: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:22:06,107: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:22:06,108: INFO: common: Created directory: artifacts]
+[2024-05-06 09:22:06,109: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-06 09:22:06,110: INFO: data_ingestion: File already exists of size: ~7718 KB]
+[2024-05-06 09:22:06,319: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:22:06,319: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-06 09:22:06,319: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:22:06,337: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:22:06,338: INFO: common: Created directory: artifacts]
+[2024-05-06 09:22:06,340: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-06 09:22:06,343: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:22:06,344: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-06 09:22:06,352: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:22:06,356: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:22:06,357: INFO: common: Created directory: artifacts]
+[2024-05-06 09:22:06,358: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-06 09:22:15,860: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-06 09:22:15,875: INFO: main: *******************]
+[2024-05-06 09:22:15,875: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-06 09:22:15,878: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-06 09:22:15,880: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-06 09:22:15,881: INFO: common: Created directory: artifacts]
+[2024-05-06 09:22:15,882: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-06 09:42:32,177: INFO: server: Started server process [4000]]
+[2024-05-06 09:42:32,177: INFO: on: Waiting for application startup.]
+[2024-05-06 09:42:32,177: INFO: on: Application startup complete.]
+[2024-05-06 09:42:32,192: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-06 09:42:34,530: INFO: server: Shutting down]
+[2024-05-06 09:42:34,637: INFO: on: Waiting for application shutdown.]
+[2024-05-06 09:42:34,637: INFO: on: Application shutdown complete.]
+[2024-05-06 09:42:34,638: INFO: server: Finished server process [4000]]
+[2024-05-07 21:40:47,912: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:40:47,932: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:40:47,935: INFO: common: Created directory: artifacts]
+[2024-05-07 21:40:47,937: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:41:07,855: INFO: 1995198703: artifacts/data_ingestion/data.zip download! with following info: 
+Content-Type: text/csv
+Content-Length: 32253647
+Connection: close
+Date: Tue, 07 May 2024 14:40:50 GMT
+Last-Modified: Wed, 21 Jun 2023 01:44:24 GMT
+ETag: "c0562ac5881e3e2061ca6724b383dab5-3"
+x-amz-storage-class: INTELLIGENT_TIERING
+x-amz-server-side-encryption: AES256
+x-amz-version-id: Px4_SXK5VN2LhSoh7YAZUui3aIvW96ar
+Content-Disposition: attachment; filename*=UTF-8''Kmeans_1024_new.csv; filename="Kmeans_1024_new.csv";
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 f356d2f4317a23145c64e2f02f74b07c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HAN50-P2
+X-Amz-Cf-Id: AeIbK--JDWo2SabkYKGKO7I8CfJ3Ro60O5TcUtSFSXniWdKrjTRrOQ==
+cache-control: public, max-age=604800, immutable, s-maxage=604800
+Vary: Origin
+
+]
+[2024-05-07 21:46:59,561: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:46:59,567: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:46:59,569: INFO: common: Created directory: artifacts]
+[2024-05-07 21:46:59,571: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:46:59,573: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-07 21:47:11,893: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:47:11,899: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:47:11,901: INFO: common: Created directory: artifacts]
+[2024-05-07 21:47:11,903: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:47:11,907: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-07 21:47:50,627: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:47:50,633: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:47:50,634: INFO: common: Created directory: artifacts]
+[2024-05-07 21:47:50,637: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:47:50,639: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-07 21:54:52,484: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:54:52,484: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:54:52,484: INFO: common: Created directory: artifacts]
+[2024-05-07 21:54:52,484: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:54:52,500: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-07 21:56:09,282: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:56:09,288: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:56:09,290: INFO: common: Created directory: artifacts]
+[2024-05-07 21:56:09,292: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:56:09,294: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-07 21:57:58,993: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-07 21:57:58,998: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-07 21:57:58,999: INFO: common: Created directory: artifacts]
+[2024-05-07 21:57:59,002: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-07 21:57:59,005: INFO: 1995198703: File already exists of size: ~31498 KB]
+[2024-05-11 07:37:16,400: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:37:16,422: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:37:16,424: INFO: common: Created directory: artifacts]
+[2024-05-11 07:37:16,428: INFO: common: Created directory: artifacts/data_ingestion]
+[2024-05-11 07:37:20,107: INFO: 1995198703: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8903934
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "a020704f8af4508ac875a9aab0ac47db8378464a63f99a88fcaee103302dd223"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4D7A:1DB7E4:2E1694:399C7E:663EBDBE
+Accept-Ranges: bytes
+Date: Sat, 11 May 2024 00:37:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-qpg1272-QPG
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1715387838.287290,VS0,VE820
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cf36c35b5cf7c06708f95947c1ffdd661d2e291f
+Expires: Sat, 11 May 2024 00:42:19 GMT
+Source-Age: 1
+
+]
+[2024-05-11 07:42:03,333: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:42:03,339: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:42:03,341: INFO: common: Created directory: artifacts]
+[2024-05-11 07:42:03,343: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:42:55,899: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:42:55,905: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:42:55,906: INFO: common: Created directory: artifacts]
+[2024-05-11 07:42:55,909: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:47:08,008: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:47:08,015: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:47:08,017: INFO: common: Created directory: artifacts]
+[2024-05-11 07:47:08,019: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:47:34,644: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:47:34,649: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:47:34,653: INFO: common: Created directory: artifacts]
+[2024-05-11 07:47:34,654: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:49:45,811: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:49:45,817: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:49:45,820: INFO: common: Created directory: artifacts]
+[2024-05-11 07:49:45,822: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:53:17,414: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:53:17,419: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:53:17,422: INFO: common: Created directory: artifacts]
+[2024-05-11 07:53:17,425: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 07:53:38,720: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 07:53:38,725: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 07:53:38,727: INFO: common: Created directory: artifacts]
+[2024-05-11 07:53:38,729: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 08:12:33,684: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:12:34,094: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:12:34,102: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:12:34,105: INFO: common: Created directory: artifacts]
+[2024-05-11 08:12:34,109: INFO: common: Created directory: artifacts/data_transformation]
+[2024-05-11 08:15:26,347: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:15:26,848: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:15:26,855: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:15:26,857: INFO: common: Created directory: artifacts]
+[2024-05-11 08:15:26,858: INFO: common: Created directory: artifacts/model_trainer]
+[2024-05-11 08:26:31,576: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:28:11,975: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:28:12,472: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:28:12,477: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:28:12,480: INFO: common: Created directory: artifacts]
+[2024-05-11 08:28:12,483: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-11 08:31:26,517: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:31:27,124: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:31:27,138: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:31:27,141: INFO: common: Created directory: artifacts]
+[2024-05-11 08:31:27,143: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-11 08:36:03,941: INFO: rouge_scorer: Using default tokenizer.]
+[2024-05-11 08:47:09,191: INFO: server: Started server process [5784]]
+[2024-05-11 08:47:09,192: INFO: on: Waiting for application startup.]
+[2024-05-11 08:47:09,194: INFO: on: Application startup complete.]
+[2024-05-11 08:47:09,195: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-11 08:48:41,248: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:48:41,248: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:48:41,248: INFO: common: Created directory: artifacts]
+[2024-05-11 08:48:41,248: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-11 08:52:24,020: INFO: server: Shutting down]
+[2024-05-11 08:52:24,140: INFO: on: Waiting for application shutdown.]
+[2024-05-11 08:52:24,144: INFO: on: Application shutdown complete.]
+[2024-05-11 08:52:24,144: INFO: server: Finished server process [5784]]
+[2024-05-11 09:34:25,071: INFO: server: Started server process [9064]]
+[2024-05-11 09:34:25,074: INFO: on: Waiting for application startup.]
+[2024-05-11 09:34:25,075: INFO: on: Application startup complete.]
+[2024-05-11 09:34:25,078: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-11 09:34:55,250: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 09:34:55,253: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 09:34:55,254: INFO: common: Created directory: artifacts]
+[2024-05-11 09:34:55,255: INFO: common: Created directory: artifacts/model_evaluation]

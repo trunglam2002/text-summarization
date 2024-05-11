@@ -2,3 +2,8 @@
 [2024-05-05 12:45:50,267: INFO: common: yaml file: params.yaml load successfully]
 [2024-05-05 12:45:50,270: INFO: common: Created directory: artifacts]
 [2024-05-05 12:45:50,272: INFO: common: Created directory: artifacts/data_validation]
+[2024-05-11 08:10:49,260: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-11 08:11:07,913: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-11 08:11:07,918: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-11 08:11:07,919: INFO: common: Created directory: artifacts]
+[2024-05-11 08:11:07,922: INFO: common: Created directory: artifacts/data_transformation]
