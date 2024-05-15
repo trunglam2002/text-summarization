@@ -1,5 +1,7 @@
 # Text-Summarizer
 
+<img src="img/Untitled.png">
+
 ## Workflows
 
 1. Update config.yaml
