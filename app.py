@@ -33,11 +33,14 @@ async def predict_route(request: Request):
     try:
         body = await request.json()
         text = body['text']
+        # Default to 128 if not provided
+        max_length = int(body.get('max_length', 128))
         obj = PredictionPipeline()
-        summary = obj.predict(text)
+        summary = obj.predict(text, max_length=max_length)
         return Response(content=summary, media_type="text/plain")
     except Exception as e:
         raise e
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8080)

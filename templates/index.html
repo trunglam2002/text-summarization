@@ -13,6 +13,10 @@
         <h1>Text Summarization</h1>
         <form id="summarize-form" method="post" action="/predict">
             <textarea name="text" id="text" rows="10" placeholder="Enter text to summarize"></textarea>
+            <div class="slidecontainer">
+                <input type="range" min="100" max="200" value="128" class="slider" id="max_length">
+                <p>Max Length: <span id="max_length_value">128</span></p>
+            </div>
             <button type="submit">Summarize</button>
         </form>
         <div id="result"></div>
@@ -21,16 +25,26 @@
         document.getElementById('summarize-form').addEventListener('submit', async function (event) {
             event.preventDefault();
             const text = document.getElementById('text').value;
+            const max_length = document.getElementById('max_length').value;
             const response = await fetch('/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ text })
+                body: JSON.stringify({ text, max_length })
             });
             const result = await response.text();
             document.getElementById('result').innerText = result;
         });
+
+        // Update max_length value display
+        const slider = document.getElementById("max_length");
+        const output = document.getElementById("max_length_value");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        };
     </script>
 </body>
 

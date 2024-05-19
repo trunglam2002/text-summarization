@@ -1633,3 +1633,117 @@ jinja2.exceptions.TemplateNotFound: index.html
 [2024-05-15 09:44:49,416: INFO: common: yaml file: params.yaml load successfully]
 [2024-05-15 09:44:49,420: INFO: common: Created directory: artifacts]
 [2024-05-15 09:44:49,421: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-15 13:01:27,842: INFO: server: Shutting down]
+[2024-05-15 13:01:27,973: INFO: on: Waiting for application shutdown.]
+[2024-05-15 13:01:27,998: INFO: on: Application shutdown complete.]
+[2024-05-15 13:01:28,002: INFO: server: Finished server process [7720]]
+[2024-05-19 08:21:44,821: INFO: server: Started server process [9272]]
+[2024-05-19 08:21:44,824: INFO: on: Waiting for application startup.]
+[2024-05-19 08:21:44,825: INFO: on: Application startup complete.]
+[2024-05-19 08:21:44,827: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-19 08:23:19,051: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:23:19,071: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:23:19,074: INFO: common: Created directory: artifacts]
+[2024-05-19 08:23:19,077: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:24:46,610: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:24:46,624: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:24:46,630: INFO: common: Created directory: artifacts]
+[2024-05-19 08:24:46,631: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:24:54,553: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\app.py", line 42, in predict_route
+    raise e
+  File "c:\Users\NgLaam\Desktop\chatbot\text-summarization\app.py", line 39, in predict_route
+    summary = obj.predict(text, max_length=max_length)
+  File "c:\users\nglaam\desktop\chatbot\text-summarization\src\text_summarizer\pipeline\prediction.py", line 21, in predict
+    output = pipe(text, **gen_kwargs)[0]["summary_text"]
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\text2text_generation.py", line 269, in __call__
+    return super().__call__(*args, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\text2text_generation.py", line 167, in __call__
+    result = super().__call__(*args, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\pipelines\text2text_generation.py", line 191, in _forward
+    output_ids = self.model.generate(**model_inputs, **generate_kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\generation\utils.py", line 1499, in generate
+    self._validate_generated_length(generation_config, input_ids_length, has_default_max_length)
+  File "C:\Users\NgLaam\Desktop\chatbot\text-summarization\.venv\lib\site-packages\transformers\generation\utils.py", line 1149, in _validate_generated_length
+    raise ValueError(
+ValueError: Input length of decoder_input_ids is 1, but `max_length` is set to 1. This can lead to unexpected behavior. You should consider increasing `max_length` or, better yet, setting `max_new_tokens`.
+[2024-05-19 08:25:06,984: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:25:06,987: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:25:06,989: INFO: common: Created directory: artifacts]
+[2024-05-19 08:25:06,989: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:26:07,960: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:26:07,974: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:26:07,980: INFO: common: Created directory: artifacts]
+[2024-05-19 08:26:07,983: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:27:13,676: INFO: server: Shutting down]
+[2024-05-19 08:27:13,791: INFO: on: Waiting for application shutdown.]
+[2024-05-19 08:27:13,804: INFO: on: Application shutdown complete.]
+[2024-05-19 08:27:13,806: INFO: server: Finished server process [9272]]
+[2024-05-19 08:27:51,998: INFO: server: Started server process [4036]]
+[2024-05-19 08:27:51,999: INFO: on: Waiting for application startup.]
+[2024-05-19 08:27:52,000: INFO: on: Application startup complete.]
+[2024-05-19 08:27:52,001: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-19 08:28:59,753: INFO: server: Shutting down]
+[2024-05-19 08:28:59,863: INFO: on: Waiting for application shutdown.]
+[2024-05-19 08:28:59,864: INFO: on: Application shutdown complete.]
+[2024-05-19 08:28:59,865: INFO: server: Finished server process [4036]]
+[2024-05-19 08:29:14,413: INFO: server: Started server process [6856]]
+[2024-05-19 08:29:14,415: INFO: on: Waiting for application startup.]
+[2024-05-19 08:29:14,418: INFO: on: Application startup complete.]
+[2024-05-19 08:29:14,420: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-05-19 08:29:37,048: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:29:37,052: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:29:37,053: INFO: common: Created directory: artifacts]
+[2024-05-19 08:29:37,054: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:31:02,632: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:31:02,634: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:31:02,635: INFO: common: Created directory: artifacts]
+[2024-05-19 08:31:02,636: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:31:46,665: INFO: common: yaml file: config\config.yaml load successfully]
+[2024-05-19 08:31:46,668: INFO: common: yaml file: params.yaml load successfully]
+[2024-05-19 08:31:46,668: INFO: common: Created directory: artifacts]
+[2024-05-19 08:31:46,669: INFO: common: Created directory: artifacts/model_evaluation]
+[2024-05-19 08:32:45,790: INFO: server: Shutting down]
+[2024-05-19 08:32:45,898: INFO: on: Waiting for application shutdown.]
+[2024-05-19 08:32:45,900: INFO: on: Application shutdown complete.]
+[2024-05-19 08:32:45,901: INFO: server: Finished server process [6856]]
