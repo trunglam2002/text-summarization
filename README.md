@@ -1,7 +1,7 @@
 # Text-Summarizer
 
 <img src="img/Untitled.png">
-<img src="img/Untitled2.png>
+<img src="img/Untitled2.png">
   
 ## Workflows
 
