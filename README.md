@@ -1,7 +1,8 @@
 # Text-Summarizer
 
 <img src="img/Untitled.png">
-
+<img src="img/Untitled2.png>
+  
 ## Workflows
 
 1. Update config.yaml
@@ -19,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/trunglam2002/text-summarization
 ```
 ### STEP 01- Create a virtual environment after opening the repository (vscode)
 
